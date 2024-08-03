@@ -1,5 +1,6 @@
 import { useContext, useEffect } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
+import GuestForm from "./components/guest-form";
 import RequireAuth from "./components/require-auth";
 import { AuthContext } from "./context/auth-context";
 import Home from "./routes/home";
@@ -27,6 +28,14 @@ function App() {
         element={
           <RequireAuth>
             <Profile />
+          </RequireAuth>
+        }
+      />
+      <Route
+        path="addguest"
+        element={
+          <RequireAuth>
+            <GuestForm />
           </RequireAuth>
         }
       />

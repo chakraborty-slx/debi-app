@@ -8,9 +8,13 @@ import {
     signInWithEmailAndPassword,
     signOut
 } from 'firebase/auth';
+import { getDatabase } from 'firebase/database';
 import { getFirebaseConfig } from './firebase-config';
 
+
+// Intitialize Firebase
 const app = initializeApp(getFirebaseConfig());
+export const db = getDatabase()
 const auth = getAuth(app);
 
 export const signInUser = async (

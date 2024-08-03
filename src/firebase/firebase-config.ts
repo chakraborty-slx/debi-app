@@ -1,12 +1,12 @@
 
 const config = {
-    apiKey: "AIzaSyAg4kG********",
-    authDomain: "*******.firebaseapp.com",
-    projectId: "*******",
-    storageBucket: "*******.appspot.com",
-    messagingSenderId: "*******",
-    appId: "1:13344485322:web:********",
-    measurementId: "G-*******"
+    apiKey: "AIzaSyDX9PgLbMNz0BHDW75TyXxpYOC0kFXWE6o",
+    authDomain: "debi2024.firebaseapp.com",
+    databaseURL: "https://debi2024-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "debi2024",
+    storageBucket: "debi2024.appspot.com",
+    messagingSenderId: "389019486455",
+    appId: "1:389019486455:web:133531ac3f92fab5f22bf2"
 };
 
 export function getFirebaseConfig() {
